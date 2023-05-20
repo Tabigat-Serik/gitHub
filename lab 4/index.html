@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="">
+   <h1 title="for registration" >Race registration form</h1>
+   <div class="group">
+    <label for="">E-mail:</label>
+    <input type="email" name="login"required><br><br></p>
+
+   </div>
+   <div class="group">
+    <h4>Select title:</h4>
+    <p><select size="3" multiple name="hero[]">
+        <option disabled>Title</option>
+        <option value="Mr.">Mr.</option>
+        <option value="Ms.">Ms.</option>
+        <option value="Mrs.">Mrs.</option>
+       </select></p>
+   </div>
+   <div class="group">
+    <label for="" >First name:</label>
+    <input type="text" required><br><br>
+
+    <label for="">Last name:</label>
+    <input type="text" required><br><br>
+
+   </div>
+   <div class="group" required><br><br>
+    <label for="">Complete Postal Mailling Address (with Postal Code, Country):</label>
+    <div>
+
+    </div>
+    <input type="password">
+
+   </div>
+
+
+    <label for="phone">Phone:</label>
+<input type="tel" id="phone" name="phone" pattern="8\d{9}" required><br><br>
+   </div>
+
+    <label for="fax">Fax:</label>
+<input type="tel" id="fax" name="fax" pattern="8\d{9}" required><br><br>
+
+<div class="group">
+    <label for="">Occupation:</label>
+    <input type="text">
+
+    <label for="">Marital Status:</label>
+    <input type="text">
+
+   </div>
+   <div class="group">
+    <h4>Select trip:</h4>
+    <p><select size="3" multiple name="hero[]">
+        <option value="Stage race">Stage race</option>
+        <option value="Mt. Everest Challenge Marathon (4 days)">Mt. Everest Challenge Marathon (4 days)</option>
+        <option value="Mt. Everest Bike Rally">Mt. Everest Bike Rally</option>
+       </select></p>
+   </div>
+
+   <div class="group">
+    <h4>I am a:</h4>
+    <p><select size="3" multiple name="hero[]">
+        <option value="Runner">Runner</option>
+        <option value="Walker">Walker</option>
+        <option value="Cyclist">Cyclist</option>
+       </select></p>
+   </div>
+
+   <div class="group">
+    <h4>T-shirt size:</h4>
+    <p><select size="4" multiple name="hero[]">
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+       </select></p>
+   </div>
+   <div class="group">
+    <label for="">Room sharing preference:</label>
+    <input type="text">
+
+    
+    <br><br>
+    <label for="birth-date">Birth Date:</label>
+    <input type="date" id="birth-date" name="birth-date" required>
+    <br><br>
+   <div class="group">
+    <input type="submit">
+    <br><br>
+    <input type="submit" value="Send">
+</form>
+
+
+</body>
+</html>
