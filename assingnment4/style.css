@@ -1,0 +1,126 @@
+.hero-section {
+
+    
+    padding: 100px 0;
+  }
+   
+  .product-card {
+
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .product-card img {
+
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .feature-card {
+
+  
+    border: none;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    padding: 10px;
+   }
+
+  
+  .feature-icon {
+    font-size: 4rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .card-title {
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+    color: #000000;
+  }
+
+  body {
+    padding-top: 50px;
+    background-color:  rgb(227, 244, 244);
+
+    }
+  h1 {
+    font-family: 'Pathway Extreme', sans-serif;
+  }
+  h2  { 
+    font-family: 'Pathway Extreme', sans-serif;
+   }
+  .toggler { width: 200px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 350px; height: 200px; padding: 0.4em; position: relative; background: white; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+  
+.intro {
+  width: 400px;
+  margin-top: 50px;
+}
+
+.player {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("intro2.jpg") center  
+    no-repeat;
+   background-size: cover;
+
+}
+.intro__inner {
+    color: #ffffff;
+width: 100%;
+min-width: 880px;
+margin: 0 auto;
+
+
+
+}
+
+.intro__title {
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    color: #fcff42;
+    text-shadow: 5px 0 5px #ffffff, 
+0 5px 5px #000, 
+-5px 0 5px #0f0f0f, 
+0 -5px 5px #ffffff;
+   
+}
+
+.intro__subtitle {
+
+    font-style: 72px;
+    color: #ffffff;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+}
+
+.intro__subtitle:after {
+    content:"";
+    display: block;
+    width: 120px;
+    height: 3px;
+    margin: 60px auto;
+    background-color: hsl(0, 0%, 100%);
+}

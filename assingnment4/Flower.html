@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    
+  <script>
+    function bigImg(x) {
+  x.style.height = "484px";
+  x.style.width = "764px";
+}
+
+function normalImg(x) {
+  x.style.height = "332px";
+  x.style.width = "432px";
+}
+
+
+  $( function() {
+    var state = true;
+    $( "#button" ).on( "click", function() {
+      if ( state ) {
+        $( "#effect" ).animate({
+          backgroundColor: "rgb(227, 244, 244)" ,
+          color: "#3e0e3a6528F7",
+          width: 500
+        }, 1000 );
+      } else {
+        $( "#effect" ).animate({
+          backgroundColor: "rgb(237, 228, 255)",
+          color: "rgb(99, 89, 133)",
+          width: 350
+        }, 1000 );
+      }
+      state = !state;
+    });
+  } );
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,wght@1,200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,wght@1,100&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowers</title>
+  <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid"> 
+      <a class="navbar-brand" href="Flower.html">Flowers</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="Flower.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#interesting">Interesting</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#features">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#products">Products</a>
+          </li>
+         
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+   
+
+<div class="intro">
+    <div class="container">
+      <div class="intro__inner">
+        <h1 class="intro__title">Florets</h1>
+        <h2 class="intro__subtitle ">Flowers are seen to alleviate inner problems, improve a person's ability to trust, raise confidence and self-esteem, alleviate hopelessness and despair, and regulate emotions such as envy, fear, guilt, and jealousy. There are also certain flowers associated with nurturing, romance, and serenity.</h2>
+      </div>
+    </div>
+  </div>
+    
+  <section class="hero-section" id="interesting">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>There are always flowers for those
+            <span class="typer" id="main" data-words="who want to see them." data-delay="65" data-deleteDelay="1000"></span>
+          <span class="cursor" data-owner="main"></span></h1>
+          <div class="toggler">
+  <div id="effect">
+    <h5>  The quote by artist Henri Matisse.</h5>
+  </div>
+</div>
+<button id="button" class="ui-state-default ui-corner-all">Change Color</button>
+          <a href="henri.html" class="btn btn-primary">Learn More</a>
+        </div>
+        <div class="col-lg-6">
+          <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0"  class="img-fluid" src="https://www.pngmart.com/files/22/Flower-Aesthetic-Theme-PNG-File.png" alt="Smiley" width="632" height="432">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="features-section py-5" id="features">
+    <div class="container">
+      <hr> </hr>
+      <h2 class="text-center mb-5">Features</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card bg-light mb-3 feature-card">
+            <div class="card-body">
+              <div class="feature-icon">
+                <i class="bi bi-lightbulb"></i>
+              </div>
+              <h3 class="card-title"> VARIETY DISPLAY</h3>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-light mb-3 feature-card">
+            <div class="card-body">
+              <div class="feature-icon">
+                <i class="bi bi-battery-full"></i>
+              </div>
+              <h3 class="card-title">EXCELLENT CUSTOMER SERVICE</h3>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-light mb-3 feature-card">
+            <div class="card-body">
+              <div class="feature-icon">
+                <i class="bi bi-speedometer2"></i>
+              </div>
+              <h3 class="card-title">EXPERIENCED STAFF</h3>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-light mb-3 feature-card">
+            <div class="card-body">
+              <div class="feature-icon">
+                <i class="bi bi-battery-full"></i>
+              </div>
+              <h3 class="card-title">STYLISH WRAPPING</h3>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-light mb-3 feature-card">
+            <div class="card-body">
+              <div class="feature-icon">
+                <i class="bi bi-battery-full"></i>
+              </div>
+              <h3 class="card-title">Always fresh flowers</h3>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-light mb-3 feature-card">
+            <div class="card-body">
+              <div class="feature-icon">
+                <i class="bi bi-battery-full"></i>
+              </div>
+              <h3 class="card-title">Best prices</h3>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="products-section" id="products">
+      <div class="container">
+        <hr>
+        <h2 class="text-center mb-5" style="color: Black;">Our
+        <span class="typer" id="main" data-words="Products" data-delay="65" data-deleteDelay="1000"></span>
+          <span class="cursor" data-owner="main"></span></h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="product-card">
+              <img src="images/go-01.jpg" alt="buket cvetov1" class="img-fluid">
+              <h3>Set with roses</h3>
+              <p>59 990 тг</p>
+              <a href="Buy now Roses.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product-card">
+              <img src="images/614cdbd4b5cd2.jpg" alt="buket cvetov2" class="img-fluid">
+              <h3>Set with peonies</h3>
+              <p>114 000 тг</p>
+              <a href="Buy now Pions.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="product-card">
+              <img src="images/гггг-1000x1000.jpg" alt="buket cvetov3" class="img-fluid">
+              <h3>Set with hydrangeas</h3>
+              <p>18 970 тг</p>
+              <a href="Buy now Gips.html" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2023 Florets Store</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+<div class="player">
+      <audio controls id="myAudio" src="music/К Элизе.mp3"></audio>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+  </html>
